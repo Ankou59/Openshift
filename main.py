@@ -8,7 +8,7 @@ import os
 @app.route('/', methods=['GET', 'POST'])
 
 def Menu():
-    return render_template(home.html)
+    return render_template("home.html")
 
 
 if __name__ == "__main__":
