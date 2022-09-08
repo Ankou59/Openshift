@@ -7,7 +7,7 @@ import os
 
 @app.route('/', methods=['GET', 'POST'])
 
-def Menu():
+def home():
     return render_template("home.html")
 
 
